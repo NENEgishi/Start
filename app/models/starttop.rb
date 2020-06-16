@@ -1,0 +1,2 @@
+class Starttop < ApplicationRecord
+end
