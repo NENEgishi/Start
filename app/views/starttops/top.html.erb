@@ -1,3 +1,13 @@
+<% if flash[:out] %>
+<div class="flash">
+	<%= flash[:out] %>
+</div>
+<% elsif flash[:in] %>
+<div class="flash">
+	<%= flash[:in] %>
+</div>
+<% end %>
+
 <h1>Starttops</h1>
 <table class="table table-striped">
 	<% if user_signed_in? %>
